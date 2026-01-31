@@ -9,7 +9,7 @@ const MATCH_STATUS = {
 
 // Schema for listing matches query parameters
 const listMatchesQuerySchema = z.object({
-  limit: z.coerce.number().int().positive().max(100).optional(),
+  limit: z.coerce.number().int().positive().max(100).optional(), 
 });
 
 // Schema for match ID parameter
